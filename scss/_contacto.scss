@@ -1,0 +1,16 @@
+.gridMainContacto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+padding: 50px;
+}
+
+input:focus{
+    height: 100;
+    font-size: 30px;
+}
+
+.textoNos{
+    text-align: center;
+    font-size: 40px;
+}

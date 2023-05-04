@@ -1,0 +1,36 @@
+*{
+    font-family: Arial;
+}
+
+li{
+    list-style-type: none;
+padding: 20px;}
+.mb20{margin-bottom: 20px;}  
+.mt20{margin-top: 20px;} 
+.p20{padding: 20px;}
+
+
+
+header{
+    background-color:snow ;
+    position: sticky;
+    padding: 10px;
+   
+}
+
+
+header, ul, footer {
+    display: flex; 
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+a:hover{
+    color: rgb(120, 34, 34);
+    font-size: 20px;
+    background-color:chocolate;
+    border-radius: 20px;
+    padding: 10px;
+}
+

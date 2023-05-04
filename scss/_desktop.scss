@@ -1,0 +1,58 @@
+@media (min-width:1024px){
+    .gridMainIndex{
+        display: grid;
+        grid-template-areas: 
+        "imgPrincipal imgPrincipal imgPrincipal"
+        "titulo titulo titulo"
+        "pIzq imgP pDer";
+        grid-template-columns: 33% 34% 33%;
+        grid-template-rows: auto auto auto;
+        }
+    .imgPrincipal{grid-area: imgPrincipal;}
+    .titulo{grid-area: titulo;}
+    .pIzq{grid-area: pIzq;}
+    .imgTexto{grid-area: imgP;}
+    .pDer{grid-area: pDer;}
+    
+
+    .gridMainProductos{
+        display: grid;
+        grid-template-areas: 
+        "tituloProd tituloProd tituloProd tituloProd"
+        "prodA prodB prodC prodD";
+        grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+    }
+    .tituloProd{grid-area: tituloProd;}
+    .prodA{grid-area: prodA;}
+    .prodB{grid-area: prodB;}
+    .prodC{grid-area: prodC;}
+    .prodD{grid-area: prodD;}
+
+    .gridIndex{
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+    header{grid-area: header;}
+    main{grid-area: main;}
+    footer{grid-area: footer;}
+    
+    footer{
+        background-color: rgb(120, 151, 156);
+    }
+
+
+
+
+
+
+
+
+
+
+}
